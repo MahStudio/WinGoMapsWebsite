@@ -10,7 +10,6 @@ jQuery(document).ready(function($){
 			$('body,html').animate({'scrollTop': $('#cd-product-tour').offset().top - 30 }, 200); 
 		} else {
 			$('.cd-main-content').addClass('is-product-tour');
-			uploadVideo(jQuery('.cd-active'));
 		}
 	});
 
@@ -102,8 +101,6 @@ jQuery(document).ready(function($){
 		selected.removeClass('cd-not-visible');
 		//update slider navigation (in case we reached the last slider)
         updateSliderNav(selected);
-        //load the video for the new slider
-		uploadVideo(selected);
 
 	}
 
