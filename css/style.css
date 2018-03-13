@@ -510,31 +510,6 @@ html, body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.cd-phone-frame::after, .cd-phone-frame::before {
-  /*these are the iPhone circle elements*/
-  position: absolute;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #202331;
-  border-radius: 50%;
-}
-.cd-phone-frame::before {
-  height: 11px;
-  width: 11px;
-  top: -28px;
-}
-.cd-phone-frame::after {
-  height: 31px;
-  width: 31px;
-  bottom: -38px;
-}
 
 .cd-image-wrapper {
   position: relative;
